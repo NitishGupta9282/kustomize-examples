@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: alpine
+        image: nginx
         tty: true
         stdin: true
         env:
